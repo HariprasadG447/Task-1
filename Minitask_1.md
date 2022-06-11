@@ -12,6 +12,10 @@ A sun tracking solar panel is a system which adjusts the position of a solar pan
 
 ## 3) Human Detection Robot 
 
+![Transmitter circuit](https://www.electronicshub.org/wp-content/uploads/2014/09/Human-Detection-Robot-Circuit-Diagram-Transmitter-Section.jpg)
+
+![Receiver Circuit](https://www.electronicshub.org/wp-content/uploads/2014/09/Human-Detection-Robot-Circuit-Diagram-Receiver-Section.jpg)
+
 Human detection robot is a moving system which used to detect the presence of Human beings. This has high applications for accident rescue teams where they identify humans in the disaster zone in order to rescue them. As the system is a wireless robot, the system consists of two circuits, the transmitter circuit and the receiver circuit. The transmitter circuit consists of an RF transmitter, a MAX232 IC and a DB9 connector connected to a PC. The MAX 232 is used for serial communication. The receiver circuit consists of AT89c51 microcontroller which belongs to the family of 8051 microcontrollers, an RF receiver to receive the signal from the transmitter, PIR sensor, L293D motor driver and motor components of the robot. The PIR sensor is used to detect human presence. Humans beings emit infrared radiations of low wavelength. The PIR sensor detects these IR radiations and hence detects humans in a region. The L293D is a motor driver IC which is required to drive the motors and to eliminate any back EMF generated. This system can also be used for military purposes to detect injured soldiers during wars.
 
 
@@ -33,3 +37,6 @@ A weather station gives information about the weather in our current surrounding
 ## 7) Raspberry Pi Internet Radio and Streaming Station
 
 Using Raspberry pi, we can set-up a streaming station using DarkIce and Icecast. DarkIce and Icecast are raspberry Pi packages which are used for audio recording ,encoding and streaming. DarkIce is a live audio streamer that records audio from an audio interface such as a microphone, encodes it and sends it to a streaming server. DarkIce can encode the audio in various formats such as MP3,MP2,AAc etc. It then sends the encoded audio to a streaming server such as Icecast. Icecast is an audio/video streaming media server that supports various file formats such as MP3,WebM etc. In order to set-up the system, first we need to install the two packages on the Raspberry Pi. When configuring Icecast, we provide the server details such as the hostname. Next, after configuring the Icecast, we now configure DarkIce with different options such as file format and internet buffer rate. Now after setting up and configuring them, we start the raspberry Pi, and can use the raspberry Pi’s IP address to open up the web in order to see the Icecast streaming. Thus, using these we can set up a streaming station which can be used as a jukebox, radio station etc.
+
+
+![Server](https://circuitdigest.com/sites/default/files/inlineimages/u3/Raspberry-Pi-Internet-Radio.jpg)
