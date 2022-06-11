@@ -22,7 +22,7 @@ Human detection robot is a moving system which used to detect the presence of Hu
 
 ## 4) Automatic Room light Controller
 
-<img src="https://giphy.com/embed/pBaxvMvzTYe6lHgxRA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/euphoria-lights-off-light-on-street-lamp-pBaxvMvzTYe6lHgxRA">via GIPHY</a></p>
+![](https://im.ezgif.com/tmp/ezgif-1-51bdf5d0b9.webp)
 
 This project describes the system which is used to automatically switch room lights on/off as a person walks in/out of the room. The components used are an ATMEGA16A microcontroller, IR sensors, LCD display, Step down transformer, relay unit and circuit components such as a power supply, a PCB, resistors  and capacitors.  In the setup, the IR sensors monitor the persons moving in and out of the room and transmits the IR signals. The microprocessor continuously tracks the persons in the room. The first IR sensor tracks movement of people into the room and therefore the microcontroller increments the number of people by 1 whereas the second microcontroller tracks movement of people out of the room and hence the microcontroller decrements the number of people by one when this IR sensor senses a person. Based on the number of persons, the microcontroller decides whether to switch on the LEDs or not. During parties where there a large number of people, this system can be modified in order to switch on different amount of lights based on the different amount of people present in the room. For example- Switch on 4 lights if more than 10 people are in a room, Switch off all lights when there are 0 persons in the
 
