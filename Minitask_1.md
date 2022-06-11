@@ -2,6 +2,8 @@
 
 ## 1) Finger print based Security System 
 
+ <img src="https://www.amvitech.com/amvitechimages/IMG_20161007_145452_HDR.jpg" width="700" height="400">
+
 A fingerprint security system is a system which uses biometric data from the user in order to identify unique individuals interacting with the system. The fingerprint is sensed here using an optical finger print sensor. The components required for this project are an optical fingerprint sensor, a microcontroller of the 8051 family, buzzer, relay ,keypad and an LCD display. In order to configure this system ,we run this system in the settings mode, where the system takes in fingerprint data of different users. Then after collecting the fingerprint data, the system is used in the normal mode where the user gives his/her fingerprint and the system compares this fingerprint to the previous data collected. If the fingerprint matches with any of the previous data, it gives an OK signal through the LED screen. If the fingerprint doesn’t match, then the system outputs an ERROR message. The keypad has three keys which can be used to toggle the different modes of the system. For example – The first key tells the system to collect fingerprint data, the second key is the mode where the system compares a new fingerprint with the existing data and the third key is used to reset all previously collected fingerprint data. The keypad 1 and 3 can be password protected so that only the admin is able to reset/change the settings of the device.
 
 
@@ -36,7 +38,9 @@ A weather station gives information about the weather in our current surrounding
 
 ## 7) Raspberry Pi Internet Radio and Streaming Station
 
+![Server](https://circuitdigest.com/sites/default/files/inlineimages/u3/Raspberry-Pi-Internet-Radio.jpg)
+
 Using Raspberry pi, we can set-up a streaming station using DarkIce and Icecast. DarkIce and Icecast are raspberry Pi packages which are used for audio recording ,encoding and streaming. DarkIce is a live audio streamer that records audio from an audio interface such as a microphone, encodes it and sends it to a streaming server. DarkIce can encode the audio in various formats such as MP3,MP2,AAc etc. It then sends the encoded audio to a streaming server such as Icecast. Icecast is an audio/video streaming media server that supports various file formats such as MP3,WebM etc. In order to set-up the system, first we need to install the two packages on the Raspberry Pi. When configuring Icecast, we provide the server details such as the hostname. Next, after configuring the Icecast, we now configure DarkIce with different options such as file format and internet buffer rate. Now after setting up and configuring them, we start the raspberry Pi, and can use the raspberry Pi’s IP address to open up the web in order to see the Icecast streaming. Thus, using these we can set up a streaming station which can be used as a jukebox, radio station etc.
 
 
-![Server](https://circuitdigest.com/sites/default/files/inlineimages/u3/Raspberry-Pi-Internet-Radio.jpg)
+
