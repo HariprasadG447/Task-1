@@ -10,6 +10,7 @@ A fingerprint security system is a system which uses biometric data from the use
 ## 2) Sun Tracking Solar Panel
 
 ![](https://thumbs.gfycat.com/ContentElaborateDogwoodclubgall.webp)
+
 A sun tracking solar panel is a system which adjusts the position of a solar panel according to the position of the Sun above the panel at different times of the day. The system consists of two Light dependent resistors (LDRs), a solar panel, a servo motor and an ATmega328 microcontroller along with resistors, capacitors, connecting wires and a breadboard/ PCB designed for the circuit. The LDRs are placed at the sides of the solar panel. When light falls on an LDR, the resistance is decreased. Therefore when an LDR on one side has a lower resistance than the other, the servo- motor connected to the solar panel rotates the panel in the direction of the LDR having lower resistance in order to increase the light falling on the solar panel. When both LDRs have the same intensity of light falling on them, then the servo motor stops rotating the panel. The Solar panel is placed on a flat cardboard surface which is connected to the servo motor and the motor rotates the panel on the cardboard.
 
 
