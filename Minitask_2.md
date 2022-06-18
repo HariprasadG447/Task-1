@@ -10,7 +10,7 @@ The solar tracker is designed to adjust its position such that the sun rays alwa
 
 ## Pipeline
 
-
+![](https://www.researchgate.net/profile/Kalyani-Bhole/publication/283093298/figure/fig1/AS:337277826945026@1457424709002/Block-diagram-of-Solar-tracking-system_W640.jpg)
 
 ## Ideas for Improvement
 
