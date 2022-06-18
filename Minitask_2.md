@@ -37,6 +37,8 @@ The Human detection Robot is a moving system designed to detect Humans in under 
 
 ## Pipeline
 
+![Human-detection-robot-block-diagram-44](https://user-images.githubusercontent.com/82822040/174422692-27e4a461-9efd-4cd6-8ff7-3028a9b20acc.png)
+
 ## Ideas for Improvement
 
 | Part/Attribute improvements | Feasibility | Advantages | Disadvantages |
